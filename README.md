@@ -6,7 +6,7 @@
 $ pip install .
 ```
 
-## Usage
+## Example
 
 ```python
 from lmap import LMap
