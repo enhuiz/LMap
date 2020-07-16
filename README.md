@@ -1,12 +1,12 @@
-# LMap: A simple map marker tool.
+# LMap: A Map Marker Tool based on Amap
 
-## Install
+## Installation
 
 ```
 $ pip install .
 ```
 
-## Example Usage
+## Usage
 
 ```python
 from lmap import LMap
@@ -20,3 +20,7 @@ lmap.add_marker(
 )
 lmap.render("index.html")
 ```
+
+Open the index.html, you will get:
+
+![](img/2020-07-16-21-38-43.png)
