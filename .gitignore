@@ -1,0 +1,4 @@
+.vscode
+*.xlsx
+example
+__pycache__
