@@ -28,7 +28,6 @@ class LMap:
         return self._title
 
     def reset(self):
-        self.body = load_template("body.html", title=self.title)
         self.markers = []
 
     def add_marker(self, name, long, lat, content):
@@ -40,4 +39,6 @@ class LMap:
             f.write(str(self))
 
     def __str__(self):
-        return fill(self.body, markers="\n\n".join(self.markers))
+        return load_template(
+            "base.html", title=self.title, markers="\n\n".join(self.markers)
+        )

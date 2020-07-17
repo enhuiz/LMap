@@ -10,5 +10,5 @@
     marker.on("mouseover", infoOpen);
     // marker.emit('mouseover', {target: marker});
     marker.on("mouseout", infoClose);
-    marker.on("click", newMAp);
+    marker.on("click", newMap);
 })();
