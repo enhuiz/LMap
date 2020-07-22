@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-$ pip install .
+pip install git+https://github.com/enhuiz/LMap
 ```
 
 ## Example
